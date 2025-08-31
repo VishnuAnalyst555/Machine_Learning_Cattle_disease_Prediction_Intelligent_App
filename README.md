@@ -1,8 +1,8 @@
 # 🐄 Cattle Disease Prediction - Weekly Research Journal  
 **Project Type:** Multi-output Classification  
 **Diseases Predicted:** Mastitis, Lameness, Calving, Oestrus  
-**Techniques Used:** Undersampling, Oversampling (ADASYN), Imputation  
-**Models Applied:** MLP, Random Forest, TabNet, LSTM, LightGBM  
+**Techniques Used:** Undersampling, Oversampling (ADASYN), Imputation, Calibration, Thresholding  
+**Models Applied:** MLP, Random Forest, TabNet, LSTM, LightGBM, TCN, Hybrid Ensemble  
 
 ---
 
@@ -135,6 +135,85 @@ Poster presentation conducted. Feedback received from assessors and incorporated
 - **19.06.2025**: Incorporated feedback from interim evaluation and added future plan for publication.
 
 ---
+
+## 📅 Week 14 (Jun 21 – Jun 30, 2025)
+### ✅ Summary
+Focused on finalizing **ADASYN oversampled datasets (0–25%)** and started **model training** across all disease classes. Early ensemble experiments were initiated.
+
+#### 📌 Commits by Date
+- **24.06.2025**: Uploaded oversampled datasets to repo.
+- **27.06.2025**: First training results for 10% OS with RF & LGBM committed.
+
+---
+
+## 📅 Week 15 (Jul 01 – Jul 10, 2025)
+### ✅ Summary
+Developed **hybrid ensemble (RF, LGBM, TabNet, LSTM, TCN, MLP)** pipeline. First **comparison metrics table** generated.
+
+#### 📌 Commits by Date
+- **04.07.2025**: Initial hybrid ensemble script committed.
+- **08.07.2025**: Master metrics table v1 (precision, recall, F1, accuracy) uploaded.
+
+---
+
+## 📅 Week 16 (Jul 11 – Jul 20, 2025)
+### ✅ Summary
+Extended **TCN and LSTM experiments** for 15% and 20% OS. Integrated **weight normalization** and improved architecture.
+
+#### 📌 Commits by Date
+- **13.07.2025**: 15% OS TCN models saved.
+- **18.07.2025**: LSTM training results for mastitis & lameness committed.
+
+---
+
+## 📅 Week 17 (Jul 21 – Jul 31, 2025)
+### ✅ Summary
+Finalized **master comparison table (0–25% OS, all models, all diseases)**. Began work on **predict_interactive_days_v8.py** for user inputs.
+
+#### 📌 Commits by Date
+- **24.07.2025**: Updated metrics table (all oversampling levels).
+- **30.07.2025**: Interactive predictor v8 committed with calibration hooks.
+
+---
+
+## 📅 Week 18 (Aug 01 – Aug 10, 2025)
+### ✅ Summary
+Improved predictors to **v8b, v8c** with guards for no-signal cases. Built **bias/fairness audit framework** with thresholds & calibration JSON configs.
+
+#### 📌 Commits by Date
+- **03.08.2025**: Bias audit thresholds.json committed.
+- **07.08.2025**: Predictor v8c (neutral ratios + guardrails) uploaded.
+
+---
+
+## 📅 Week 19 (Aug 11 – Aug 18, 2025)
+### ✅ Summary
+Assembled **Streamlit app framework** for multi-disease predictions. Completed **presentation prep** for poster session.
+
+#### 📌 Commits by Date
+- **14.08.2025**: Streamlit app scaffold pushed.
+- **17.08.2025**: Poster slides (STAT module) finalized.
+
+---
+
+## 📅 Week 20 (Aug 19 – Aug 21, 2025)
+### ✅ Summary
+**Poster session delivered**. Received feedback on model calibration and oversampling drift. Refined plans for final write-up.
+
+#### 📌 Commits by Date
+- **20.08.2025**: Poster presentation files archived in `/docs`.
+
+---
+
+## 📅 Week 21 (Aug 22 – Aug 31, 2025)
+### ✅ Summary
+Drafted **final dissertation** (due Aug 31). Prepared **README.md, artefact structure, journal, and appendix prompts**. Extended prediction script to **v12** with corrected thresholds and calibration.
+
+#### 📌 Commits by Date
+- **25.08.2025**: README.md draft for GitHub committed.
+- **28.08.2025**: Prediction script v12 uploaded.
+- **31.08.2025**: Final dissertation draft submitted to supervisor.
+
 
 ## 🧾 Supervisor Meeting Minutes (by Date)
 
