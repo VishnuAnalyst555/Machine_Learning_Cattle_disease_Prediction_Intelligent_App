@@ -15,7 +15,7 @@ Provides two subcommands:
      - y_true (0/1)
      - probability_1 (float, raw/un-calibrated)
 
-   Example:
+  
      python calibrate_and_threshold.py fit \
        --in preds_labeled.csv \
        --outdir calibrators \
@@ -24,7 +24,7 @@ Provides two subcommands:
 
    Methods:
      - platt   : logistic regression calibration
-     - isotonic: non-parametric isotonic regression
+    
 
    Threshold pickers:
      - none    : do not compute thresholds
@@ -41,7 +41,7 @@ Provides two subcommands:
      - probability_1 (float)
      - (optional) prediction (will be ignored and recomputed)
 
-   Example:
+   
      python calibrate_and_threshold.py apply \
        --in results_case_all_*.csv \
        --calibrators calibrators \
