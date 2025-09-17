@@ -28,11 +28,12 @@ Work continued on acquiring suitable datasets and outlining the structure for ar
 
 ## 📅 Week 3 (Mar 24 – Mar 30, 2025)
 ### ✅ Summary
-USDA and INRAE datasets selected. Ethics form was revised based on feedback. Literature review was expanded and organized into comparison matrices.
+INRAE datasets selected. Ethics form was revised based on feedback. Literature review was expanded and organized into comparison matrices.
 
 #### 📌 Commits by Date
 - **24.03.2025**: Uploaded dataset feasibility check results.
 - **26.03.2025**: Updated literature mapping and comparison matrix.
+- **27-30.03.2025**: Did oversampling , undeersampling and played with models to see the Thrend 
 
 ---
 
@@ -193,6 +194,7 @@ Assembled **Streamlit app framework** for multi-disease predictions. Completed *
 #### 📌 Commits by Date
 - **14.08.2025**: Streamlit app scaffold pushed.
 - **17.08.2025**: Poster slides (STAT module) finalized.
+- **18.08.2025**: Discussed with supervisor on the issues related to imbalance and incorporated teh changes
 
 ---
 
